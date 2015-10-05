@@ -1,0 +1,60 @@
+* {
+    // outline: 1px dotted red ;
+}
+
+.jumbotron {
+    font-family: 'Nunito', sans-serif;
+    color: white !important;
+    background: url("../img/desk.jpg") center center;
+    background-size: cover;
+    text-align: center;
+    margin: 0 0 40px 0 !important;
+    padding: 0 !important;
+
+    .overlay {
+        background: rgba(0,0,0,0.5);
+        padding: 80px;
+    }
+    img {
+        margin: 0 auto;
+        width: 1.2em;
+    }
+}
+
+
+.content {
+        font-family: 'Nunito', sans-serif;
+}
+
+.signature {
+        font-family: 'Nunito', sans-serif;
+        margin: 40px 0 150px 0;
+}
+
+.colorBox {
+    display: flex;
+    .yellow {
+        display: inline-block;
+        width: 25%;
+        height: 10px;
+        background-color: #F46C56;
+    }
+    .orange {
+        display: block;
+        width: 25%;
+        height: 10px;
+        background-color: #C03445;
+    }
+    .blue {
+        display: inline-block;
+        width: 25%;
+        height: 10px;
+        background-color: #49243F;
+    }
+    .lightBlue {
+        display: inline-block;
+        width: 25%;
+        height: 10px;
+        background-color: #BB4272;
+    }
+}

@@ -1,0 +1,64 @@
+/* line 5, ../scss/style.scss */
+.jumbotron {
+  font-family: 'Nunito', sans-serif;
+  color: white !important;
+  background: url("../img/desk.jpg") center center;
+  background-size: cover;
+  text-align: center;
+  margin: 0 0 40px 0 !important;
+  padding: 0 !important;
+}
+/* line 14, ../scss/style.scss */
+.jumbotron .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 80px;
+}
+/* line 18, ../scss/style.scss */
+.jumbotron img {
+  margin: 0 auto;
+  width: 1.2em;
+}
+
+/* line 25, ../scss/style.scss */
+.content {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* line 29, ../scss/style.scss */
+.signature {
+  font-family: 'Nunito', sans-serif;
+  margin: 40px 0 150px 0;
+}
+
+/* line 34, ../scss/style.scss */
+.colorBox {
+  display: flex;
+}
+/* line 36, ../scss/style.scss */
+.colorBox .yellow {
+  display: inline-block;
+  width: 25%;
+  height: 10px;
+  background-color: #F46C56;
+}
+/* line 42, ../scss/style.scss */
+.colorBox .orange {
+  display: block;
+  width: 25%;
+  height: 10px;
+  background-color: #C03445;
+}
+/* line 48, ../scss/style.scss */
+.colorBox .blue {
+  display: inline-block;
+  width: 25%;
+  height: 10px;
+  background-color: #49243F;
+}
+/* line 54, ../scss/style.scss */
+.colorBox .lightBlue {
+  display: inline-block;
+  width: 25%;
+  height: 10px;
+  background-color: #BB4272;
+}
