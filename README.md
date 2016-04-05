@@ -1,10 +1,14 @@
 # Proposal Template
 
+<img src='img/preview.png'/>
+
 You can use this template to send beautiful proposals to clients.
 
 View the template here http://joshpitzalis.github.io/proposal/
 
-Please don't copy and paste. Use as a guideline. Build on it and then send me a pull request with improvements.
+Please build on it and then send me a pull request with improvements.
+
+A proposal generator used called [Beagle](http://getbeagle.co/) shut down and I couldn't find anything simple to replace it so I made this simple template.
 
 ## Structure
 + demonstrate understanding
@@ -15,5 +19,5 @@ Please don't copy and paste. Use as a guideline. Build on it and then send me a 
 + layout next steps
 
 ## Tech used:
-+ bootstrap
++ bootstrap ( I'm sorry, I will remove this when I get some time, made super quick and I didn't want to mess around with responsive images and mobile sizing)
 + sass (I used Scout to compile)
