@@ -1,7 +1,8 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react'
+import PropTypes from 'prop-types'
 
-const Image = ({ source, alt }) => <img src={source} alt={alt} />
+const Image = ({ source, alt }) =>
+  <img src={source} alt={alt} className="w-100" />
 
 Image.propTypes = {
   source: PropTypes.string.isRequired,

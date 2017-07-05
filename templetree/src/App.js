@@ -6,50 +6,54 @@ import FullWidthImage from './components/FullWidthImage'
 import Image from './components/Image'
 import Title from './components/Title'
 import Signature from './components/Signature'
-import Skirting from './components/Skirting'
-import PricingTable from './components/PricingTable'
+import BulletPoints from './components/BulletPoints'
 
-import flowchart from './images/FLOWCHART.png'
+import flowchart from './images/flowchart.png'
 import data from './data.js'
 import option1 from './images/option1.png'
 import option2 from './images/option2.png'
-import responsive from './images/responsive.png'
-import colours from './images/colours.png'
-import pricing from './images/pricing.png'
+import palette1 from './images/palette1.png'
+import palette2 from './images/palette2.png'
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <main>
         <Header
-          backgroundURL={data.backgroundURL}
-          date={data.date}
-          type={data.type}
-          client={data.client}
+          backgroundURL={data.header.backgroundURL}
+          date={data.header.date}
+          type={data.header.type}
+          client={data.header.client}
+          heading={data.header.heading}
         />
-        <Title title="The repercussion of ugliness is endless" />
-        <TextBlock />
-        <FullWidthImage source={flowchart} alt="flowchart" />
-        <Title title="Option 1" />
-        <TextBlock />
+        <TextBlock
+          p1={data.text.p1}
+          p2={data.text.p2}
+          p3={data.text.p3}
+          p4={data.text.p4}
+          p5={data.text.p5}
+        />
+        <BulletPoints list={data.list.l1} />
+        <Title title="Design Option 1" />
+        <TextBlock p1={data.text.p7} />
         <Image source={option1} alt="option1" />
+        <TextBlock p1={data.text.p8} />
+        <FullWidthImage source={palette1} alt="option1" />
         <Title title="Option 2" />
-        <TextBlock />
+        <TextBlock p1={data.text.p9} />
         <FullWidthImage source={option2} alt="option2" />
-        <TextBlock />
-        <FullWidthImage source={responsive} alt="responsive versions" />
-        <FullWidthImage source={responsive} alt="responsive versions" />
-        <TextBlock />
-        <PricingTable />
+        <TextBlock p1={data.text.p10} />
+        <FullWidthImage source={palette2} alt="option1" />
+        <Title title="Timeline & Cost" />
+        <TextBlock p1={data.text.p11} />
         <Title title="Next Steps" />
-        <TextBlock />
+        <TextBlock p1={data.text.p12} p2={data.text.p13} />
         <Signature
-          author={data.author}
-          designation={data.designation}
-          contact={data.contact}
+          author={data.header.author}
+          designation={data.header.designation}
+          contact={data.header.contact}
         />
-        <Skirting />
-      </div>
+      </main>
     )
   }
 }
